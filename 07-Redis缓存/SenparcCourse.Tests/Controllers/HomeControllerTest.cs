@@ -60,9 +60,7 @@ namespace SenparcCourse.Tests.Controllers
         { 
             //开启多个线程
             for (int i = 0; i < 100; i++)
-            {
-                Thread.Sleep(100);//给个线程创建时间
-
+            { 
                 Thread thread = new Thread(RunSingleLockTest);
                 thread.Start(); 
             }
