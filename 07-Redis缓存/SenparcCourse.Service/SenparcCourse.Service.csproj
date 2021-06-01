@@ -37,23 +37,23 @@
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\SenparcCourse\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Senparc.CO2NET, Version=1.3.110.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\SenparcCourse\packages\Senparc.CO2NET.1.3.110\lib\net45\Senparc.CO2NET.dll</HintPath>
+    <Reference Include="Senparc.CO2NET, Version=1.3.300.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\SenparcCourse\packages\Senparc.CO2NET.1.3.300\lib\net45\Senparc.CO2NET.dll</HintPath>
     </Reference>
-    <Reference Include="Senparc.CO2NET.APM, Version=0.9.110.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\SenparcCourse\packages\Senparc.CO2NET.APM.0.9.110\lib\net45\Senparc.CO2NET.APM.dll</HintPath>
+    <Reference Include="Senparc.CO2NET.APM, Version=0.9.300.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\SenparcCourse\packages\Senparc.CO2NET.APM.0.9.300\lib\net45\Senparc.CO2NET.APM.dll</HintPath>
     </Reference>
-    <Reference Include="Senparc.NeuChar, Version=1.2.108.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\SenparcCourse\packages\Senparc.NeuChar.1.2.108\lib\net45\Senparc.NeuChar.dll</HintPath>
+    <Reference Include="Senparc.NeuChar, Version=1.3.300.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\SenparcCourse\packages\Senparc.NeuChar.1.3.300\lib\net45\Senparc.NeuChar.dll</HintPath>
     </Reference>
-    <Reference Include="Senparc.NeuChar.App, Version=0.8.108.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\SenparcCourse\packages\Senparc.NeuChar.App.0.8.108\lib\net45\Senparc.NeuChar.App.dll</HintPath>
+    <Reference Include="Senparc.NeuChar.App, Version=0.9.300.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\SenparcCourse\packages\Senparc.NeuChar.App.0.9.300\lib\net45\Senparc.NeuChar.App.dll</HintPath>
     </Reference>
-    <Reference Include="Senparc.Weixin, Version=6.7.502.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\SenparcCourse\packages\Senparc.Weixin.6.7.502\lib\net45\Senparc.Weixin.dll</HintPath>
+    <Reference Include="Senparc.Weixin, Version=6.8.400.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\SenparcCourse\packages\Senparc.Weixin.6.8.400\lib\net45\Senparc.Weixin.dll</HintPath>
     </Reference>
-    <Reference Include="Senparc.Weixin.MP, Version=16.10.502.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\SenparcCourse\packages\Senparc.Weixin.MP.16.10.502.1\lib\net45\Senparc.Weixin.MP.dll</HintPath>
+    <Reference Include="Senparc.Weixin.MP, Version=16.11.400.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\SenparcCourse\packages\Senparc.Weixin.MP.16.11.400\lib\net45\Senparc.Weixin.MP.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
