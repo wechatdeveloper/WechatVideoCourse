@@ -34,17 +34,15 @@ namespace SenparcCourse.Controllers
         //Static 保存在内存中，页面观察数据变化
         private static int _count;
 
-        public static  int Count
+        public static int Count
         {
-            get { Thread.Sleep(50); return _count; }
+            get { return _count; }
 
             set
             {
-                //线程休眠0.1秒；模拟数据更新处理的时间
-                Thread.Sleep(100); 
                 _count = value;
-            } 
-        } 
+            }
+        }
 
         public ContentResult LockTest()
         {
@@ -52,11 +50,10 @@ namespace SenparcCourse.Controllers
             var strategy = CacheStrategyFactory.GetObjectCacheStrategyInstance();
             using (strategy.BeginCacheLock("HomeController", "LockTest"))
             {
-                var count = Count; //数据计出来 
-                Count = count + 1; //数据再更新进去 
-                string strResult = "Count:" + count;
-                return Content(strResult);
-            } 
+                Thread.Sleep(300);
+                Count++;
+                return Content("Count:" + Count);
+            }
         }
     }
 }
